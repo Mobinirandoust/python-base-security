@@ -1,5 +1,4 @@
 import random
-from time import sleep as pop
 
 liststring = ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', 'l', 'k', 'j', 'h', 'g',
  'f', 'd', 's', 'a', 'z', 'x', 'c', 'v', 'b', 'n', 'm']
@@ -31,8 +30,6 @@ for me in lengh:
     mydrive = random.choice(i)
     print(mydrive)
     bin.append(str(mydrive))
-    pop(1)
-
     
 print("*"*a)
 print("*"*a)
